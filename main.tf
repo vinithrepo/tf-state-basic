@@ -24,7 +24,7 @@ resource "null_resource" "ansible" {
 cd /home/centos/roboshop-ansible
 git pull
 sleep 60
-ansible-playbook -i ${var.name}-dev.vinithaws.online, main.yml -e ansible_user=centos -e ansible_password=DevOps321 -e component=${var.name}
+ansible-playbook -i ${var.name}-dev.vinithaws.online, main.yml -e ansible_user=ec2-user -e ansible_password=DevOps321 -e component=${var.name}
 
 EOF
   }
