@@ -3,7 +3,7 @@
 #  name_regex = "Centos-8-DevOps-Practice"
 #  owners = [ 973714476881 ]
 #}
-data "aws_ami" "ami" {
+data "aws_ami" "ami2" {
   most_recent = true
   name_regex = "RHEL-8-DevOps-Practice"
   owners = [ 973714476881 ]
