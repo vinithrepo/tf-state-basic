@@ -20,7 +20,7 @@ resource "null_resource" "ansible" {
   provisioner "local-exec" {
     command = <<EOF
 
-cd /home/ec2-user/r-ansible
+cd /home/centos/roboshop-tf-ansible
 #cd /home/ec2-user/r-ansible
 git pull
 sleep 60
